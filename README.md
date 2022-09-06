@@ -16,7 +16,6 @@ The company then nurtures these leads and tries to convert them to paid customer
 
 ## **Objective**
 
-
 ExtraaLearn is an initial stage startup that offers programs on cutting-edge technologies to students and professionals to help them upskill/reskill. With a large number of leads being generated on a regular basis, one of the issues faced by ExtraaLearn is to identify which of the leads are more likely to convert so that they can allocate the resources accordingly. You, as a data scientist at ExtraaLearn, have been provided the leads data to:
 * Analyze and build an ML model to help identify which leads are more likely to convert to paid customers. 
 * Find the factors driving the lead conversion process.
@@ -48,3 +47,25 @@ The data contains the different attributes of leads and their interaction detail
 * **status:** Flag indicating whether the lead was converted to a paid customer or not.
 
 *Dataset source: Kaggle.com*
+
+## **Conclusions**
+
+The main key factors that drive the conversion of leads are:
+
+- Time spent on website: the more the time spent by a lead in the website, the more the chance to get converted.
+- The first interaction with the website is also crucial. Leads who interact first with the website instead of the mobile app tend to have better chances to get converted.
+- Having completed the profile (medium) is also a key drive. It seems leads who do that are more interested in the services of ExtraaLearn.
+- Age (older than 25) is also a feature that affects positively the rate of conversion. Maturity seems to be a key factor to become a paid customer.
+
+There are other minor factors that could also benefit the decision of a lead to get converted:
+
+- Current occupation, last activity website, pages view per visit, number of visit to the website.
+
+## **Business Recommendations**
+
+- Checking the mobile app in order to understand why it doesn't represent a key drive to convert leads. Lack of information in the app? Not the appropiate design? Navigation isn't easy?
+- Understand why the website is so attractive to leads and apply those insights to the mobile app.
+- Promote the profile completion by the leads. Find a way that motivates leads to complete their profile (giving benefits, discounts, etc.)
+- Guide the marketing campaign to professionals and unemployeds leads over 25 years old due to the fact they represent the customer majority.
+- Understand if there are oportunities to attract students to become paid customers.
+- Company should try to get more leads through referrals by promoting rewards for existing customer base when they refer someone.
